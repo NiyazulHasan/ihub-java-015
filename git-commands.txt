@@ -1,0 +1,120 @@
+Steps to push the code in GITHUB
+==================================
+step1:
+-----
+	Install GIT software in your computer.
+	ex:
+		https://git-scm.com/downloads
+
+step2:
+-------
+	Create an account in GITHUB.
+	ex:
+		Username: XXXXX
+		Password: *****
+
+step3:
+-----
+	Create a remote repository inside github.
+	ex:
+		repository name : ihub-java-015
+			
+
+step4:
+-------
+	Create a "Training" folder inside any drive.
+
+step5:
+-----
+	Copy and paste the project inside training folder.
+	
+step6:
+------
+	Open a bash  from "Training" folder.
+	ex:
+		right click inside "Training" folder--> Git Bash Here.
+
+step7:
+------
+	Initialized empty Git repository.
+	ex:
+		bash> git init
+
+
+step8:
+-----
+	See the current branch name of local repository .
+	ex:
+		bash> git branch
+
+step9:
+----
+	Move from master branch to main branch.
+	ex:
+		bash> git branch --move master main
+
+step10:
+-----
+	Up stream the main branch.
+	ex:
+		bash> git push --set-upstream origin main
+
+
+step11:
+-----
+	To check the status in git.
+	ex:
+		bash> git status
+step12:
+-------
+	Add the folders and files to commit.
+	ex:
+		bash> git add .
+		
+step13:
+------
+	Again check the status in git.
+	ex:
+		bash> git status
+
+step14:
+--------
+	commit the files into master branch.
+	ex:
+		bash> git commit -m "My Project"
+
+step15:
+--------
+	add remote origin to git.
+	ex:
+	bash> git remote add origin https://github.com/NiyazulHasan/ihub-java-015
+
+step16:
+-------
+	push the project to master branch.
+	ex:
+		bash> git push origin main
+		or
+		bash> git push -f origin main
+
+step17:
+--------
+	Goto github reposority and represent the web page
+	ex:
+		https://github.com/NiyazulHasan/ihub-java-015
+
+step18:
+------
+	We can clone the project by using below command.
+	ex:
+		bash> git clone  https://github.com/NiyazulHasan/ihub-java-015
+
+
+
+
+
+
+
+
+
+
